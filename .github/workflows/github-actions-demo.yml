@@ -1,7 +1,7 @@
 name: Run Python Script Daily
 on:
   schedule:
-    - cron: '0 17 45 * *' # A las 12:00 UTC diariamente
+    - cron: '50 17 * * *' # A las 17:45 UTC diariamente
 jobs:
   run-script:
     runs-on: ubuntu-latest
